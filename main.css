@@ -1,93 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    border-top: 1px solid#ccc;
-    border-bottom: 1px solid#ccc;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-top: 1px solid#ccc;
+  border-bottom: 1px solid#ccc;
 }
 
 .header-left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    padding: 24px 30px;
-    border-right: 1px solid #ccc;
-    cursor: pointer;
+  padding: 24px 30px;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
 }
 
 .header-address {
-    padding: 20px 30px;
+  padding: 20px 30px;
 }
 
 .header-address h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .header-address p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .search-box {
-    flex-grow: 1;
-    display: flex;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+  flex-grow: 1;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
 
 .search-box button {
-    padding: 15px;
-    border: none;
-    background-color: transparent;
+  padding: 15px;
+  border: none;
+  background-color: transparent;
 }
 
 .search-box input {
-    flex-grow: 1;
-    border: none;
-    background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
 }
 
 .search-box input:focus {
-    outline: none;
+  outline: none;
 }
 
 .header-btn {
-    display: flex;
-    gap: 40px;
-    margin-right: 40px;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 
 .header-btn button {
-    font-size: 16px;
-    padding: 15px;
-    background-color: transparent;
-    border: none;
-}
-
-.header-btn button:first-child:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
 }
 
 .header-btn button:last-child {
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: rgb(12, 131, 31);
-    cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(12, 131, 31);
 }
 
 .header-btn button:last-child:hover {
-    color: #dfdfdf;
+  cursor: pointer;
+}
+
+.header-btn button:first-child {
+  font-weight: bold;
+}
+
+.header-btn button:first-child:hover {
+  cursor: pointer;
 }
 
 .cart-count {
@@ -102,10 +104,10 @@ header {
 }
 
 .bannerSection {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .bannerSection img {
-    width: 100%;
+  width: 100%;
 }
