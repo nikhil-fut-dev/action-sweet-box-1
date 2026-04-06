@@ -1,0 +1,1 @@
+"This Project is a clone of Blinkit for Education Purposes only. Not Affiliated with Blinkit." 
